@@ -467,6 +467,316 @@
             Your branch is up to date with 'origin/master'.
             </p>
 
+            <ul>
+                <li>Git status</li>
+                <li>Made changes in html, css, or js file. Save</li>
+                <li>Git status</li>
+                <li>git add .</li>
+                <li>Git commit -m "message"</li>
+                <li>Git remote add origin https://github.com/llcain/GitVideo.git</li>
+                <li>Git push origin master or what ever branch you want to push to</li>
+            </ul>
+
+            <p>LaQuisha L. Cain@DESKTOP-OP90IGP MINGW64 ~/Desktop/GitVideo (master)
+                $ git status
+                On branch master
+                Your branch is up to date with 'origin/master'.
+                
+                Changes not staged for commit:
+                  (use "git add <file>..." to update what will be committed)
+                  (use "git checkout -- <file>..." to discard changes in working directory)
+                
+                        modified:   index.html
+                        modified:   style.css
+                
+                no changes added to commit (use "git add" and/or "git commit -a")
+                
+                LaQuisha L. Cain@DESKTOP-OP90IGP MINGW64 ~/Desktop/GitVideo (master)
+                $ git add .
+                
+                LaQuisha L. Cain@DESKTOP-OP90IGP MINGW64 ~/Desktop/GitVideo (master)
+                $ git push -u origin master
+                Everything up-to-date
+                Branch 'master' set up to track remote branch 'master' from 'origin'.
+                
+                LaQuisha L. Cain@DESKTOP-OP90IGP MINGW64 ~/Desktop/GitVideo (master)
+                $ git commit -m "added steps to push to respository"
+                [master 162514c] added steps to push to respository
+                 2 files changed, 4 insertions(+)
+                
+                LaQuisha L. Cain@DESKTOP-OP90IGP MINGW64 ~/Desktop/GitVideo (master)
+                $ git push -u origin master
+                Enumerating objects: 7, done.
+                Counting objects: 100% (7/7), done.
+                Delta compression using up to 4 threads
+                Compressing objects: 100% (4/4), done.
+                Writing objects: 100% (4/4), 438 bytes | 438.00 KiB/s, done.
+                Total 4 (delta 2), reused 0 (delta 0)
+                remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+                To https://github.com/llcain/GitVideo.git
+                   011e048..162514c  master -> master
+                Branch 'master' set up to track remote branch 'master' from 'origin'.
+                
+                LaQuisha L. Cain@DESKTOP-OP90IGP MINGW64 ~/Desktop/GitVideo (master)
+                $ git status
+                On branch master
+                Your branch is up to date with 'origin/master'.
+                
+                nothing to commit, working tree clean
+                
+                LaQuisha L. Cain@DESKTOP-OP90IGP MINGW64 ~/Desktop/GitVideo (master)
+                $ git status
+                On branch master
+                Your branch is up to date with 'origin/master'.
+                
+                Changes not staged for commit:
+                  (use "git add <file>..." to update what will be committed)
+                  (use "git checkout -- <file>..." to discard changes in working directory)
+                
+                        modified:   index.html
+                
+                no changes added to commit (use "git add" and/or "git commit -a")
+                
+                LaQuisha L. Cain@DESKTOP-OP90IGP MINGW64 ~/Desktop/GitVideo (master)
+                $ git add .
+                
+                LaQuisha L. Cain@DESKTOP-OP90IGP MINGW64 ~/Desktop/GitVideo (master)
+                $ git commit -m "added paragragh"
+                [master 5b04ce5] added paragragh
+                 1 file changed, 50 insertions(+)
+                
+                LaQuisha L. Cain@DESKTOP-OP90IGP MINGW64 ~/Desktop/GitVideo (master)
+                $ git push -u origin master
+                Enumerating objects: 5, done.
+                Counting objects: 100% (5/5), done.
+                Delta compression using up to 4 threads
+                Compressing objects: 100% (3/3), done.
+                Writing objects: 100% (3/3), 1.21 KiB | 618.00 KiB/s, done.
+                Total 3 (delta 0), reused 0 (delta 0)
+                To https://github.com/llcain/GitVideo.git
+                   162514c..5b04ce5  master -> master
+                Branch 'master' set up to track remote branch 'master' from 'origin'.
+                
+                LaQuisha L. Cain@DESKTOP-OP90IGP MINGW64 ~/Desktop/GitVideo (master)
+                $ git status
+                On branch master
+                Your branch is up to date with 'origin/master'.
+                
+                nothing to commit, working tree clean
+                
+                LaQuisha L. Cain@DESKTOP-OP90IGP MINGW64 ~/Desktop/GitVideo (master)
+                $ git status
+                On branch master
+                Your branch is up to date with 'origin/master'.
+                
+                Changes not staged for commit:
+                  (use "git add <file>..." to update what will be committed)
+                  (use "git checkout -- <file>..." to discard changes in working directory)
+                
+                        modified:   style.css
+                
+                no changes added to commit (use "git add" and/or "git commit -a")
+                
+                LaQuisha L. Cain@DESKTOP-OP90IGP MINGW64 ~/Desktop/GitVideo (master)
+                $ git add .
+                
+                LaQuisha L. Cain@DESKTOP-OP90IGP MINGW64 ~/Desktop/GitVideo (master)
+                $ git commit -m "removed red color from paragraph"
+                [master 02751e6] removed red color from paragraph
+                 1 file changed, 4 deletions(-)
+                
+                LaQuisha L. Cain@DESKTOP-OP90IGP MINGW64 ~/Desktop/GitVideo (master)
+                $ git push -u origin master
+                Enumerating objects: 5, done.
+                Counting objects: 100% (5/5), done.
+                Delta compression using up to 4 threads
+                Compressing objects: 100% (3/3), done.
+                Writing objects: 100% (3/3), 289 bytes | 289.00 KiB/s, done.
+                Total 3 (delta 2), reused 0 (delta 0)
+                remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+                To https://github.com/llcain/GitVideo.git
+                   5b04ce5..02751e6  master -> master
+                Branch 'master' set up to track remote branch 'master' from 'origin'.
+                
+                LaQuisha L. Cain@DESKTOP-OP90IGP MINGW64 ~/Desktop/GitVideo (master)
+                $ git status
+                On branch master
+                Your branch is up to date with 'origin/master'.
+                
+                nothing to commit, working tree clean
+                
+                LaQuisha L. Cain@DESKTOP-OP90IGP MINGW64 ~/Desktop/GitVideo (master)
+                $ git status
+                On branch master
+                Your branch is up to date with 'origin/master'.
+                
+                Changes not staged for commit:
+                  (use "git add <file>..." to update what will be committed)
+                  (use "git checkout -- <file>..." to discard changes in working directory)
+                
+                        modified:   index.html
+                
+                no changes added to commit (use "git add" and/or "git commit -a")
+                
+                LaQuisha L. Cain@DESKTOP-OP90IGP MINGW64 ~/Desktop/GitVideo (master)
+                $ git add .
+                
+                LaQuisha L. Cain@DESKTOP-OP90IGP MINGW64 ~/Desktop/GitVideo (master)
+                $ git commit -m "added a second paragragh"
+                [master dda3ad2] added a second paragragh
+                 1 file changed, 129 insertions(+)
+                
+                LaQuisha L. Cain@DESKTOP-OP90IGP MINGW64 ~/Desktop/GitVideo (master)
+                $ git push -u origin master
+                Enumerating objects: 5, done.
+                Counting objects: 100% (5/5), done.
+                Delta compression using up to 4 threads
+                Compressing objects: 100% (3/3), done.
+                Writing objects: 100% (3/3), 1.54 KiB | 786.00 KiB/s, done.
+                Total 3 (delta 0), reused 0 (delta 0)
+                To https://github.com/llcain/GitVideo.git
+                   02751e6..dda3ad2  master -> master
+                Branch 'master' set up to track remote branch 'master' from 'origin'.
+                
+                LaQuisha L. Cain@DESKTOP-OP90IGP MINGW64 ~/Desktop/GitVideo (master)
+                $ git status
+                On branch master
+                Your branch is up to date with 'origin/master'.
+                
+                nothing to commit, working tree clean
+                
+                LaQuisha L. Cain@DESKTOP-OP90IGP MINGW64 ~/Desktop/GitVideo (master)
+                $ git status
+                On branch master
+                Your branch is up to date with 'origin/master'.
+                
+                Changes not staged for commit:
+                  (use "git add <file>..." to update what will be committed)
+                  (use "git checkout -- <file>..." to discard changes in working directory)
+                
+                        modified:   index.html
+                
+                no changes added to commit (use "git add" and/or "git commit -a")
+                
+                LaQuisha L. Cain@DESKTOP-OP90IGP MINGW64 ~/Desktop/GitVideo (master)
+                $ git add .
+                
+                LaQuisha L. Cain@DESKTOP-OP90IGP MINGW64 ~/Desktop/GitVideo (master)
+                $ git commit -m "added ordered list"
+                [master ca05ae0] added ordered list
+                 1 file changed, 6 insertions(+)
+                
+                LaQuisha L. Cain@DESKTOP-OP90IGP MINGW64 ~/Desktop/GitVideo (master)
+                $ git push -u origin master
+                Enumerating objects: 5, done.
+                Counting objects: 100% (5/5), done.
+                Delta compression using up to 4 threads
+                Compressing objects: 100% (3/3), done.
+                Writing objects: 100% (3/3), 379 bytes | 379.00 KiB/s, done.
+                Total 3 (delta 1), reused 0 (delta 0)
+                remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+                To https://github.com/llcain/GitVideo.git
+                   dda3ad2..ca05ae0  master -> master
+                Branch 'master' set up to track remote branch 'master' from 'origin'.
+                
+                LaQuisha L. Cain@DESKTOP-OP90IGP MINGW64 ~/Desktop/GitVideo (master)
+                $ git branch
+                  crazycolors
+                * master
+                
+                LaQuisha L. Cain@DESKTOP-OP90IGP MINGW64 ~/Desktop/GitVideo (master)
+                $ git checkout crazycolors
+                Switched to branch 'crazycolors'
+                
+                LaQuisha L. Cain@DESKTOP-OP90IGP MINGW64 ~/Desktop/GitVideo (crazycolors)
+                $ git status
+                On branch crazycolors
+                Changes not staged for commit:
+                  (use "git add <file>..." to update what will be committed)
+                  (use "git checkout -- <file>..." to discard changes in working directory)
+                
+                        modified:   style.css
+                
+                no changes added to commit (use "git add" and/or "git commit -a")
+                
+                LaQuisha L. Cain@DESKTOP-OP90IGP MINGW64 ~/Desktop/GitVideo (crazycolors)
+                $ git add .
+                
+                LaQuisha L. Cain@DESKTOP-OP90IGP MINGW64 ~/Desktop/GitVideo (crazycolors)
+                $ git commit -m "paragraph color to blue"
+                [crazycolors 0719530] paragraph color to blue
+                 1 file changed, 1 insertion(+), 1 deletion(-)
+                
+                LaQuisha L. Cain@DESKTOP-OP90IGP MINGW64 ~/Desktop/GitVideo (crazycolors)
+                $ git push -u origin crazycolors
+                Enumerating objects: 5, done.
+                Counting objects: 100% (5/5), done.
+                Delta compression using up to 4 threads
+                Compressing objects: 100% (3/3), done.
+                Writing objects: 100% (3/3), 289 bytes | 289.00 KiB/s, done.
+                Total 3 (delta 2), reused 0 (delta 0)
+                remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+                remote:
+                remote: Create a pull request for 'crazycolors' on GitHub by visiting:
+                remote:      https://github.com/llcain/GitVideo/pull/new/crazycolors
+                remote:
+                To https://github.com/llcain/GitVideo.git
+                 * [new branch]      crazycolors -> crazycolors
+                Branch 'crazycolors' set up to track remote branch 'crazycolors' from 'origin'.
+                
+                LaQuisha L. Cain@DESKTOP-OP90IGP MINGW64 ~/Desktop/GitVideo (crazycolors)
+                $ git status
+                On branch crazycolors
+                Your branch is up to date with 'origin/crazycolors'.
+                
+                nothing to commit, working tree clean
+                
+                LaQuisha L. Cain@DESKTOP-OP90IGP MINGW64 ~/Desktop/GitVideo (crazycolors)
+                $ git checkout master
+                Switched to branch 'master'
+                Your branch is up to date with 'origin/master'.
+                
+                LaQuisha L. Cain@DESKTOP-OP90IGP MINGW64 ~/Desktop/GitVideo (master)
+                $ git status
+                On branch master
+                Your branch is up to date with 'origin/master'.
+                
+                Changes not staged for commit:
+                  (use "git add <file>..." to update what will be committed)
+                  (use "git checkout -- <file>..." to discard changes in working directory)
+                
+                        modified:   index.html
+                
+                no changes added to commit (use "git add" and/or "git commit -a")
+                
+                LaQuisha L. Cain@DESKTOP-OP90IGP MINGW64 ~/Desktop/GitVideo (master)
+                $ git add .
+                
+                LaQuisha L. Cain@DESKTOP-OP90IGP MINGW64 ~/Desktop/GitVideo (master)
+                $ git commit -m "how to switch from crazycolors branch to master"
+                [master 996242c] how to switch from crazycolors branch to master
+                 1 file changed, 262 insertions(+)
+                
+                LaQuisha L. Cain@DESKTOP-OP90IGP MINGW64 ~/Desktop/GitVideo (master)
+                $ git push -u origin master
+                Enumerating objects: 5, done.
+                Counting objects: 100% (5/5), done.
+                Delta compression using up to 4 threads
+                Compressing objects: 100% (3/3), done.
+                Writing objects: 100% (3/3), 2.04 KiB | 1.02 MiB/s, done.
+                Total 3 (delta 0), reused 0 (delta 0)
+                To https://github.com/llcain/GitVideo.git
+                   ca05ae0..996242c  master -> master
+                Branch 'master' set up to track remote branch 'master' from 'origin'.
+                
+                LaQuisha L. Cain@DESKTOP-OP90IGP MINGW64 ~/Desktop/GitVideo (master)
+                $ git status
+                On branch master
+                Your branch is up to date with 'origin/master'.
+                
+                nothing to commit, working tree clean
+                </p>
+
 
     
     <script src="app.js"></script>
